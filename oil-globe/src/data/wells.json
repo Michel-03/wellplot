@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "name": "Well A",
+    "lat": 28.6139,
+    "lon": 77.2090,
+    "layers": [
+      {
+        "name": "Surface",
+        "depthTop": 0,
+        "depthBottom": 200,
+        "owner": "Government",
+        "status": "Free"
+      },
+      {
+        "name": "Water",
+        "depthTop": 200,
+        "depthBottom": 1000,
+        "owner": "Public",
+        "status": "Protected"
+      },
+      {
+        "name": "Reservoir",
+        "depthTop": 1000,
+        "depthBottom": 3000,
+        "owner": "ONGC",
+        "status": "Licensed"
+      },
+      {
+        "name": "Basement",
+        "depthTop": 3000,
+        "depthBottom": 5000,
+        "owner": "Unknown",
+        "status": "Restricted"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Well A",
+    "lat": 28.612,
+    "lon": 77.2090,
+    "layers": [
+      {
+        "name": "Surface",
+        "depthTop": 0,
+        "depthBottom": 200,
+        "owner": "Government",
+        "status": "Free"
+      },
+      {
+        "name": "Water",
+        "depthTop": 200,
+        "depthBottom": 1000,
+        "owner": "Public",
+        "status": "Protected"
+      },
+      {
+        "name": "Reservoir",
+        "depthTop": 1000,
+        "depthBottom": 3000,
+        "owner": "ONGC",
+        "status": "Licensed"
+      },
+      {
+        "name": "Basement",
+        "depthTop": 3000,
+        "depthBottom": 5000,
+        "owner": "Unknown",
+        "status": "Restricted"
+      }
+    ]
+  }
+]
+
+
