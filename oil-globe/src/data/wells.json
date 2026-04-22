@@ -1,76 +1,191 @@
 [
   {
-    "id": 1,
-    "name": "Well A",
-    "lat": 28.6139,
-    "lon": 77.2090,
+    "name": "McKenzie Bakken Hz #1",
+    "country": "United States",
+    "region": "North Dakota",
+    "api": "33-053-01111",
+    "lat": 47.8500,
+    "lon": -103.6200,
+    "elevation_ft": 2350,
+    "total_depth_ft": 20500,
+    "producing_depth_ft": 20500,
     "layers": [
-      {
-        "name": "Surface",
-        "depthTop": 0,
-        "depthBottom": 200,
-        "owner": "Government",
-        "status": "Free"
-      },
-      {
-        "name": "Water",
-        "depthTop": 200,
-        "depthBottom": 1000,
-        "owner": "Public",
-        "status": "Protected"
-      },
-      {
-        "name": "Reservoir",
-        "depthTop": 1000,
-        "depthBottom": 3000,
-        "owner": "ONGC",
-        "status": "Licensed"
-      },
-      {
-        "name": "Basement",
-        "depthTop": 3000,
-        "depthBottom": 5000,
-        "owner": "Unknown",
-        "status": "Restricted"
-      }
+      { "id": "m1", "name": "Glacial Till", "owner": "Continental Resources", "top_ft": 0, "bot_ft": 5800, "color": "#45B7D1" },
+      { "id": "m2", "name": "Madison Group", "owner": "OPEN - No Lessee", "top_ft": 5800, "bot_ft": 8900, "color": "#27AE60" },
+      { "id": "m3", "name": "Bakken Formation", "owner": "Hess Corporation", "top_ft": 8900, "bot_ft": 20500, "color": "#F39C12" }
     ]
   },
   {
-    "id": 1,
-    "name": "Well A",
-    "lat": 28.612,
-    "lon": 77.2090,
+    "name": "Mountrail Three Forks #2",
+    "country": "United States",
+    "region": "North Dakota",
+    "api": "33-061-02222",
+    "lat": 48.1200,
+    "lon": -102.5500,
+    "elevation_ft": 2200,
+    "total_depth_ft": 21200,
+    "producing_depth_ft": 21200,
     "layers": [
-      {
-        "name": "Surface",
-        "depthTop": 0,
-        "depthBottom": 200,
-        "owner": "Government",
-        "status": "Free"
-      },
-      {
-        "name": "Water",
-        "depthTop": 200,
-        "depthBottom": 1000,
-        "owner": "Public",
-        "status": "Protected"
-      },
-      {
-        "name": "Reservoir",
-        "depthTop": 1000,
-        "depthBottom": 3000,
-        "owner": "ONGC",
-        "status": "Licensed"
-      },
-      {
-        "name": "Basement",
-        "depthTop": 3000,
-        "depthBottom": 5000,
-        "owner": "Unknown",
-        "status": "Restricted"
-      }
+      { "id": "mt1", "name": "Glacial Till", "owner": "Slawson Exploration", "top_ft": 0, "bot_ft": 4000, "color": "#9B59B6" },
+      { "id": "mt2", "name": "Three Forks Fm", "owner": "Marathon Oil", "top_ft": 4000, "bot_ft": 21200, "color": "#E74C3C" }
+    ]
+  },
+  {
+    "name": "Dunn Core #5",
+    "country": "United States",
+    "region": "North Dakota",
+    "api": "33-025-03333",
+    "lat": 47.3500,
+    "lon": -102.8800,
+    "elevation_ft": 2450,
+    "total_depth_ft": 19800,
+    "producing_depth_ft": 19800,
+    "layers": [
+      { "id": "d1", "name": "Surface", "owner": "OPEN - No Lessee", "top_ft": 0, "bot_ft": 4400, "color": "#27AE60" },
+      { "id": "d2", "name": "Bakken Formation", "owner": "ConocoPhillips", "top_ft": 4400, "bot_ft": 19800, "color": "#3498DB" }
+    ]
+  },
+  {
+    "name": "Williams Deep #7",
+    "country": "United States",
+    "region": "North Dakota",
+    "api": "33-105-04444",
+    "lat": 48.3200,
+    "lon": -103.9500,
+    "elevation_ft": 2180,
+    "total_depth_ft": 22000,
+    "producing_depth_ft": 22000,
+    "layers": [
+      { "id": "w1", "name": "Shallow Zone", "owner": "Whiting Petroleum", "top_ft": 0, "bot_ft": 8400, "color": "#E67E22" },
+      { "id": "w2", "name": "Gap Zone", "owner": "OPEN - No Lessee", "top_ft": 8400, "bot_ft": 11600, "color": "#27AE60" },
+      { "id": "w3", "name": "Lower Basin", "owner": "Enerplus Resources", "top_ft": 11600, "bot_ft": 22000, "color": "#1ABC9C" }
+    ]
+  },
+  {
+    "name": "Loma Campana Vaca Muerta #3",
+    "country": "Argentina",
+    "region": "Neuquén Basin",
+    "api": "AR-NQN-05501",
+    "lat": -38.5800,
+    "lon": -68.7500,
+    "elevation_ft": 1280,
+    "total_depth_ft": 10500,
+    "producing_depth_ft": 10500,
+    "layers": [
+      { "id": "lc1", "name": "Quaternary Cover", "owner": "YPF S.A.", "top_ft": 0, "bot_ft": 2200, "color": "#D35400" },
+      { "id": "lc2", "name": "Neuquén Group", "owner": "OPEN - No Lessee", "top_ft": 2200, "bot_ft": 5600, "color": "#27AE60" },
+      { "id": "lc3", "name": "Vaca Muerta Shale", "owner": "YPF-Chevron JV", "top_ft": 5600, "bot_ft": 10500, "color": "#8E44AD" }
+    ]
+  },
+  {
+    "name": "Bajada del Palo Oeste #4",
+    "country": "Argentina",
+    "region": "Neuquén Basin",
+    "api": "AR-NQN-05502",
+    "lat": -38.7200,
+    "lon": -69.1100,
+    "elevation_ft": 1350,
+    "total_depth_ft": 11200,
+    "producing_depth_ft": 11200,
+    "layers": [
+      { "id": "bp1", "name": "Rayoso Formation", "owner": "Vista Energy", "top_ft": 0, "bot_ft": 3100, "color": "#F1C40F" },
+      { "id": "bp2", "name": "Mulichinco Fm", "owner": "Vista Energy", "top_ft": 3100, "bot_ft": 6800, "color": "#E67E22" },
+      { "id": "bp3", "name": "Vaca Muerta Shale", "owner": "Vista Energy", "top_ft": 6800, "bot_ft": 11200, "color": "#2C3E50" }
+    ]
+  },
+  {
+    "name": "Fortín de Piedra #6",
+    "country": "Argentina",
+    "region": "Neuquén Basin",
+    "api": "AR-NQN-05503",
+    "lat": -38.3400,
+    "lon": -69.4500,
+    "elevation_ft": 1420,
+    "total_depth_ft": 12000,
+    "producing_depth_ft": 12000,
+    "layers": [
+      { "id": "fp1", "name": "Surface Sediments", "owner": "OPEN - No Lessee", "top_ft": 0, "bot_ft": 2800, "color": "#27AE60" },
+      { "id": "fp2", "name": "Quintuco Formation", "owner": "Tecpetrol", "top_ft": 2800, "bot_ft": 7400, "color": "#16A085" },
+      { "id": "fp3", "name": "Vaca Muerta Shale", "owner": "Tecpetrol", "top_ft": 7400, "bot_ft": 12000, "color": "#C0392B" }
+    ]
+  },
+  {
+    "name": "El Orejano Tight Gas #8",
+    "country": "Argentina",
+    "region": "Neuquén Basin",
+    "api": "AR-NQN-05504",
+    "lat": -38.9100,
+    "lon": -68.9800,
+    "elevation_ft": 1180,
+    "total_depth_ft": 9800,
+    "producing_depth_ft": 9800,
+    "layers": [
+      { "id": "eo1", "name": "Overburden", "owner": "YPF S.A.", "top_ft": 0, "bot_ft": 2500, "color": "#BDC3C7" },
+      { "id": "eo2", "name": "Lajas Formation", "owner": "YPF-Dow JV", "top_ft": 2500, "bot_ft": 9800, "color": "#2980B9" }
+    ]
+  },
+  {
+    "name": "Çayırdere Shale #1",
+    "country": "Turkey",
+    "region": "Thrace Basin",
+    "api": "TR-THR-10001",
+    "lat": 41.3500,
+    "lon": 27.2200,
+    "elevation_ft": 520,
+    "total_depth_ft": 8500,
+    "producing_depth_ft": 8500,
+    "layers": [
+      { "id": "cy1", "name": "Ergene Formation", "owner": "Turkish Petroleum (TPAO)", "top_ft": 0, "bot_ft": 1800, "color": "#7F8C8D" },
+      { "id": "cy2", "name": "Danişmen Fm", "owner": "OPEN - No Lessee", "top_ft": 1800, "bot_ft": 4200, "color": "#27AE60" },
+      { "id": "cy3", "name": "Mezardere Shale", "owner": "Turkish Petroleum (TPAO)", "top_ft": 4200, "bot_ft": 8500, "color": "#34495E" }
+    ]
+  },
+  {
+    "name": "Diyarbakır Deep #2",
+    "country": "Turkey",
+    "region": "Southeast Anatolia",
+    "api": "TR-DYB-10002",
+    "lat": 37.9100,
+    "lon": 40.2300,
+    "elevation_ft": 2100,
+    "total_depth_ft": 14500,
+    "producing_depth_ft": 14500,
+    "layers": [
+      { "id": "dy1", "name": "Şelmo Formation", "owner": "TPAO", "top_ft": 0, "bot_ft": 3600, "color": "#E74C3C" },
+      { "id": "dy2", "name": "Germav Fm", "owner": "TPAO", "top_ft": 3600, "bot_ft": 8400, "color": "#D35400" },
+      { "id": "dy3", "name": "Mardin Group", "owner": "TPAO-Shell JV", "top_ft": 8400, "bot_ft": 14500, "color": "#8E44AD" }
+    ]
+  },
+  {
+    "name": "Gabar Mountain #4",
+    "country": "Turkey",
+    "region": "Şırnak",
+    "api": "TR-SRN-10003",
+    "lat": 37.4500,
+    "lon": 42.4800,
+    "elevation_ft": 3200,
+    "total_depth_ft": 12800,
+    "producing_depth_ft": 12800,
+    "layers": [
+      { "id": "gb1", "name": "Weathered Zone", "owner": "OPEN - No Lessee", "top_ft": 0, "bot_ft": 1500, "color": "#27AE60" },
+      { "id": "gb2", "name": "Midyat Group", "owner": "TPAO", "top_ft": 1500, "bot_ft": 6200, "color": "#F39C12" },
+      { "id": "gb3", "name": "Mardin Limestone", "owner": "TPAO", "top_ft": 6200, "bot_ft": 12800, "color": "#16A085" }
+    ]
+  },
+  {
+    "name": "Sakarya Gas Offshore #9",
+    "country": "Turkey",
+    "region": "Black Sea",
+    "api": "TR-BLK-10004",
+    "lat": 42.1200,
+    "lon": 35.6500,
+    "elevation_ft": -7200,
+    "total_depth_ft": 17500,
+    "producing_depth_ft": 17500,
+    "layers": [
+      { "id": "sk1", "name": "Seafloor Sediments", "owner": "TPAO", "top_ft": 0, "bot_ft": 3400, "color": "#3498DB" },
+      { "id": "sk2", "name": "Akçakoca Fm", "owner": "OPEN - No Lessee", "top_ft": 3400, "bot_ft": 9800, "color": "#27AE60" },
+      { "id": "sk3", "name": "Sakarya Reservoir", "owner": "TPAO", "top_ft": 9800, "bot_ft": 17500, "color": "#1ABC9C" }
     ]
   }
 ]
-
-
