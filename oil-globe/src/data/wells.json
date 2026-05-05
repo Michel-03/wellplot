@@ -1,191 +1,575 @@
 [
   {
-    "name": "McKenzie Bakken Hz #1",
-    "country": "United States",
-    "region": "North Dakota",
-    "api": "33-053-01111",
-    "lat": 47.8500,
-    "lon": -103.6200,
-    "elevation_ft": 2350,
-    "total_depth_ft": 20500,
-    "producing_depth_ft": 20500,
+    "name": "Wolfcamp A-1H",
+    "country": "USA",
+    "state": "TX",
+    "basin": "Permian",
+    "sub_basin": "Midland",
+    "api": "42-329-41234-00-00",
+    "operator": "Pioneer Natural Resources",
+    "lat": 31.9834,
+    "lon": -102.0779,
+    "elevation_ft": 2850,
+    "total_depth_ft": 16800,
+    "spud_date": "2023-03-12",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 1240,
+      "gas_mcfd": 3800,
+      "water_bwpd": 4200,
+      "gor": 3065,
+      "wc_pct": 77
+    },
+    "lease": "Midland County Lease 4892",
     "layers": [
-      { "id": "m1", "name": "Glacial Till", "owner": "Continental Resources", "top_ft": 0, "bot_ft": 5800, "color": "#45B7D1" },
-      { "id": "m2", "name": "Madison Group", "owner": "OPEN - No Lessee", "top_ft": 5800, "bot_ft": 8900, "color": "#27AE60" },
-      { "id": "m3", "name": "Bakken Formation", "owner": "Hess Corporation", "top_ft": 8900, "bot_ft": 20500, "color": "#F39C12" }
-    ]
+      { "id": "wc_sf", "name": "Surface Casing", "owner": "Pioneer NR", "top_ft": 0, "bot_ft": 800, "color": "#B0BEC5", "lithology": "Clay / Unconsolidated" },
+      { "id": "wc_cl", "name": "Clearfork Fm", "owner": "Pioneer NR", "top_ft": 800, "bot_ft": 4200, "color": "#78909C", "lithology": "Carbonate / Dolomite" },
+      { "id": "wc_sp", "name": "Spraberry Fm", "owner": "Pioneer NR", "top_ft": 4200, "bot_ft": 7600, "color": "#8D6E63", "lithology": "Siltstone / Shale" },
+      { "id": "wc_dw", "name": "Dean / Wolfcamp", "owner": "Pioneer NR", "top_ft": 7600, "bot_ft": 10800, "color": "#5C6BC0", "lithology": "Shale / Tight Carbonate" },
+      { "id": "wc_target", "name": "Wolfcamp A — TARGET", "owner": "Pioneer NR", "top_ft": 10800, "bot_ft": 11400, "color": "#E53935", "lithology": "Organic Shale — Pay Zone" },
+      { "id": "wc_b", "name": "Wolfcamp B", "owner": "Pioneer NR", "top_ft": 11400, "bot_ft": 13200, "color": "#7B1FA2", "lithology": "Organic Shale" },
+      { "id": "wc_bn", "name": "Bone Spring / Delaware", "owner": "OPEN", "top_ft": 13200, "bot_ft": 16800, "color": "#37474F", "lithology": "Deep Carbonate" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 1800 },
+      { "type": "curve", "radius": 350 },
+      { "type": "horizontal", "length": 9200 }
+    ],
+    "branches": []
   },
   {
-    "name": "Mountrail Three Forks #2",
-    "country": "United States",
-    "region": "North Dakota",
-    "api": "33-061-02222",
-    "lat": 48.1200,
-    "lon": -102.5500,
+    "name": "Delaware Basin 7-H",
+    "country": "USA",
+    "state": "NM",
+    "basin": "Permian",
+    "sub_basin": "Delaware",
+    "api": "30-015-33901-00-00",
+    "operator": "Occidental Petroleum",
+    "lat": 32.3411,
+    "lon": -104.2200,
+    "elevation_ft": 3500,
+    "total_depth_ft": 17200,
+    "spud_date": "2023-07-01",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 980,
+      "gas_mcfd": 2100,
+      "water_bwpd": 5800,
+      "gor": 2143,
+      "wc_pct": 85
+    },
+    "lease": "Eddy County Unit 1102",
+    "layers": [
+      { "id": "db_sf", "name": "Surface / Gaines", "owner": "Oxy", "top_ft": 0, "bot_ft": 1200, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "db_at", "name": "Atoka / Morrow", "owner": "Oxy", "top_ft": 1200, "bot_ft": 5500, "color": "#80CBC4", "lithology": "Sandstone" },
+      { "id": "db_bs3", "name": "Bone Spring 3rd", "owner": "Oxy", "top_ft": 5500, "bot_ft": 8900, "color": "#26C6DA", "lithology": "Carbonate" },
+      { "id": "db_bs1", "name": "Bone Spring 1st — TARGET", "owner": "Oxy", "top_ft": 8900, "bot_ft": 9800, "color": "#E53935", "lithology": "Pay Zone" },
+      { "id": "db_wf", "name": "Wolfcamp XY", "owner": "OPEN", "top_ft": 9800, "bot_ft": 13000, "color": "#5C6BC0", "lithology": "Organic Shale" },
+      { "id": "db_pr", "name": "Pennsylvanian / Strawn", "owner": "OPEN", "top_ft": 13000, "bot_ft": 17200, "color": "#37474F", "lithology": "Deep Limestone" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 2100 },
+      { "type": "curve", "radius": 400 },
+      { "type": "horizontal", "length": 8800 }
+    ],
+    "branches": []
+  },
+  {
+    "name": "Eagle Ford 22-1H",
+    "country": "USA",
+    "state": "TX",
+    "basin": "Eagle Ford",
+    "sub_basin": "Upper Eagle Ford",
+    "api": "42-255-88812-00-00",
+    "operator": "EOG Resources",
+    "lat": 28.6100,
+    "lon": -99.1300,
+    "elevation_ft": 680,
+    "total_depth_ft": 14200,
+    "spud_date": "2022-11-15",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 760,
+      "gas_mcfd": 5600,
+      "water_bwpd": 1800,
+      "gor": 7368,
+      "wc_pct": 70
+    },
+    "lease": "La Salle County Lease 221",
+    "layers": [
+      { "id": "ef_sf", "name": "Surface / Austin Chalk", "owner": "EOG", "top_ft": 0, "bot_ft": 2000, "color": "#F5F5F5", "lithology": "Chalk / Marl" },
+      { "id": "ef_up", "name": "Upper Eagle Ford", "owner": "EOG", "top_ft": 2000, "bot_ft": 5500, "color": "#FFCC02", "lithology": "Calcareous Shale" },
+      { "id": "ef_target", "name": "Lower Eagle Ford — TARGET", "owner": "EOG", "top_ft": 5500, "bot_ft": 6100, "color": "#E53935", "lithology": "Organic Mudstone — Pay" },
+      { "id": "ef_buda", "name": "Buda Limestone", "owner": "EOG", "top_ft": 6100, "bot_ft": 8800, "color": "#BCAAA4", "lithology": "Hard Limestone" },
+      { "id": "ef_per", "name": "Pearsall Fm", "owner": "OPEN", "top_ft": 8800, "bot_ft": 14200, "color": "#4E342E", "lithology": "Tight Carbonate" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 1500 },
+      { "type": "curve", "radius": 300 },
+      { "type": "horizontal", "length": 7500 }
+    ],
+    "branches": []
+  },
+  {
+    "name": "Haynesville SHL-4",
+    "country": "USA",
+    "state": "LA",
+    "basin": "Haynesville",
+    "sub_basin": "Core Haynesville",
+    "api": "17-031-21456-00-00",
+    "operator": "Chesapeake Energy",
+    "lat": 32.4100,
+    "lon": -93.4700,
+    "elevation_ft": 250,
+    "total_depth_ft": 18200,
+    "spud_date": "2023-01-20",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 15,
+      "gas_mcfd": 21000,
+      "water_bwpd": 300,
+      "gor": 1400000,
+      "wc_pct": 2
+    },
+    "lease": "Caddo Parish Unit 77",
+    "layers": [
+      { "id": "hn_sf", "name": "Surface Casing", "owner": "Chesapeake", "top_ft": 0, "bot_ft": 1000, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "hn_cot", "name": "Cotton Valley", "owner": "Chesapeake", "top_ft": 1000, "bot_ft": 8000, "color": "#8D6E63", "lithology": "Tight Sandstone" },
+      { "id": "hn_bos", "name": "Bossier Shale", "owner": "Chesapeake", "top_ft": 8000, "bot_ft": 11800, "color": "#546E7A", "lithology": "Organic Shale" },
+      { "id": "hn_target", "name": "Haynesville Shale — TARGET", "owner": "Chesapeake", "top_ft": 11800, "bot_ft": 12600, "color": "#E53935", "lithology": "Organic Shale — Pay" },
+      { "id": "hn_smk", "name": "Smackover Fm", "owner": "OPEN", "top_ft": 12600, "bot_ft": 18200, "color": "#263238", "lithology": "Deep Carbonate" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 2500 },
+      { "type": "curve", "radius": 450 },
+      { "type": "horizontal", "length": 9500 }
+    ],
+    "branches": []
+  },
+  {
+    "name": "Bakken 11X-32",
+    "country": "USA",
+    "state": "ND",
+    "basin": "Williston",
+    "sub_basin": "Core Bakken",
+    "api": "33-053-06723-00-00",
+    "operator": "Continental Resources",
+    "lat": 47.8200,
+    "lon": -103.2500,
     "elevation_ft": 2200,
-    "total_depth_ft": 21200,
-    "producing_depth_ft": 21200,
+    "total_depth_ft": 20400,
+    "spud_date": "2022-09-05",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 1050,
+      "gas_mcfd": 1800,
+      "water_bwpd": 2100,
+      "gor": 1714,
+      "wc_pct": 67
+    },
+    "lease": "McKenzie County Unit 1142",
     "layers": [
-      { "id": "mt1", "name": "Glacial Till", "owner": "Slawson Exploration", "top_ft": 0, "bot_ft": 4000, "color": "#9B59B6" },
-      { "id": "mt2", "name": "Three Forks Fm", "owner": "Marathon Oil", "top_ft": 4000, "bot_ft": 21200, "color": "#E74C3C" }
-    ]
+      { "id": "bk_sf", "name": "Surface / Fox Hills", "owner": "Continental", "top_ft": 0, "bot_ft": 1500, "color": "#B0BEC5", "lithology": "Glacial Till" },
+      { "id": "bk_wd", "name": "Williston Deep", "owner": "Continental", "top_ft": 1500, "bot_ft": 7000, "color": "#78909C", "lithology": "Anhydrite / Evaporite" },
+      { "id": "bk_mis", "name": "Mission Canyon", "owner": "Continental", "top_ft": 7000, "bot_ft": 10200, "color": "#80CBC4", "lithology": "Dolomite" },
+      { "id": "bk_log", "name": "Lodgepole Limestone", "owner": "Continental", "top_ft": 10200, "bot_ft": 13800, "color": "#26A69A", "lithology": "Carbonate" },
+      { "id": "bk_3f", "name": "Three Forks", "owner": "Continental", "top_ft": 13800, "bot_ft": 15600, "color": "#7B1FA2", "lithology": "Dolomitic Siltstone" },
+      { "id": "bk_target", "name": "Middle Bakken — TARGET", "owner": "Continental", "top_ft": 15600, "bot_ft": 16200, "color": "#E53935", "lithology": "Dolomitic Sandstone — Pay" },
+      { "id": "bk_lb", "name": "Lower Bakken / Lodgepole", "owner": "OPEN", "top_ft": 16200, "bot_ft": 20400, "color": "#212121", "lithology": "Black Shale Source" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 2200 },
+      { "type": "curve", "radius": 400 },
+      { "type": "horizontal", "length": 10200 }
+    ],
+    "branches": []
   },
   {
-    "name": "Dunn Core #5",
-    "country": "United States",
-    "region": "North Dakota",
-    "api": "33-025-03333",
-    "lat": 47.3500,
-    "lon": -102.8800,
-    "elevation_ft": 2450,
-    "total_depth_ft": 19800,
-    "producing_depth_ft": 19800,
-    "layers": [
-      { "id": "d1", "name": "Surface", "owner": "OPEN - No Lessee", "top_ft": 0, "bot_ft": 4400, "color": "#27AE60" },
-      { "id": "d2", "name": "Bakken Formation", "owner": "ConocoPhillips", "top_ft": 4400, "bot_ft": 19800, "color": "#3498DB" }
-    ]
-  },
-  {
-    "name": "Williams Deep #7",
-    "country": "United States",
-    "region": "North Dakota",
-    "api": "33-105-04444",
-    "lat": 48.3200,
-    "lon": -103.9500,
-    "elevation_ft": 2180,
-    "total_depth_ft": 22000,
-    "producing_depth_ft": 22000,
-    "layers": [
-      { "id": "w1", "name": "Shallow Zone", "owner": "Whiting Petroleum", "top_ft": 0, "bot_ft": 8400, "color": "#E67E22" },
-      { "id": "w2", "name": "Gap Zone", "owner": "OPEN - No Lessee", "top_ft": 8400, "bot_ft": 11600, "color": "#27AE60" },
-      { "id": "w3", "name": "Lower Basin", "owner": "Enerplus Resources", "top_ft": 11600, "bot_ft": 22000, "color": "#1ABC9C" }
-    ]
-  },
-  {
-    "name": "Loma Campana Vaca Muerta #3",
-    "country": "Argentina",
-    "region": "Neuquén Basin",
-    "api": "AR-NQN-05501",
-    "lat": -38.5800,
-    "lon": -68.7500,
-    "elevation_ft": 1280,
-    "total_depth_ft": 10500,
-    "producing_depth_ft": 10500,
-    "layers": [
-      { "id": "lc1", "name": "Quaternary Cover", "owner": "YPF S.A.", "top_ft": 0, "bot_ft": 2200, "color": "#D35400" },
-      { "id": "lc2", "name": "Neuquén Group", "owner": "OPEN - No Lessee", "top_ft": 2200, "bot_ft": 5600, "color": "#27AE60" },
-      { "id": "lc3", "name": "Vaca Muerta Shale", "owner": "YPF-Chevron JV", "top_ft": 5600, "bot_ft": 10500, "color": "#8E44AD" }
-    ]
-  },
-  {
-    "name": "Bajada del Palo Oeste #4",
-    "country": "Argentina",
-    "region": "Neuquén Basin",
-    "api": "AR-NQN-05502",
-    "lat": -38.7200,
-    "lon": -69.1100,
-    "elevation_ft": 1350,
-    "total_depth_ft": 11200,
-    "producing_depth_ft": 11200,
-    "layers": [
-      { "id": "bp1", "name": "Rayoso Formation", "owner": "Vista Energy", "top_ft": 0, "bot_ft": 3100, "color": "#F1C40F" },
-      { "id": "bp2", "name": "Mulichinco Fm", "owner": "Vista Energy", "top_ft": 3100, "bot_ft": 6800, "color": "#E67E22" },
-      { "id": "bp3", "name": "Vaca Muerta Shale", "owner": "Vista Energy", "top_ft": 6800, "bot_ft": 11200, "color": "#2C3E50" }
-    ]
-  },
-  {
-    "name": "Fortín de Piedra #6",
-    "country": "Argentina",
-    "region": "Neuquén Basin",
-    "api": "AR-NQN-05503",
-    "lat": -38.3400,
-    "lon": -69.4500,
-    "elevation_ft": 1420,
-    "total_depth_ft": 12000,
-    "producing_depth_ft": 12000,
-    "layers": [
-      { "id": "fp1", "name": "Surface Sediments", "owner": "OPEN - No Lessee", "top_ft": 0, "bot_ft": 2800, "color": "#27AE60" },
-      { "id": "fp2", "name": "Quintuco Formation", "owner": "Tecpetrol", "top_ft": 2800, "bot_ft": 7400, "color": "#16A085" },
-      { "id": "fp3", "name": "Vaca Muerta Shale", "owner": "Tecpetrol", "top_ft": 7400, "bot_ft": 12000, "color": "#C0392B" }
-    ]
-  },
-  {
-    "name": "El Orejano Tight Gas #8",
-    "country": "Argentina",
-    "region": "Neuquén Basin",
-    "api": "AR-NQN-05504",
-    "lat": -38.9100,
-    "lon": -68.9800,
-    "elevation_ft": 1180,
+    "name": "Marcellus GH-12",
+    "country": "USA",
+    "state": "PA",
+    "basin": "Appalachian",
+    "sub_basin": "Northeast Marcellus",
+    "api": "37-115-24601-00-00",
+    "operator": "EQT Corporation",
+    "lat": 41.4400,
+    "lon": -77.4100,
+    "elevation_ft": 1600,
     "total_depth_ft": 9800,
-    "producing_depth_ft": 9800,
+    "spud_date": "2023-04-22",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 5,
+      "gas_mcfd": 18500,
+      "water_bwpd": 120,
+      "gor": 3700000,
+      "wc_pct": 1
+    },
+    "lease": "Lycoming County Unit 89",
     "layers": [
-      { "id": "eo1", "name": "Overburden", "owner": "YPF S.A.", "top_ft": 0, "bot_ft": 2500, "color": "#BDC3C7" },
-      { "id": "eo2", "name": "Lajas Formation", "owner": "YPF-Dow JV", "top_ft": 2500, "bot_ft": 9800, "color": "#2980B9" }
+      { "id": "mc_sf", "name": "Surface Casing", "owner": "EQT", "top_ft": 0, "bot_ft": 800, "color": "#B0BEC5", "lithology": "Alluvium / Soil" },
+      { "id": "mc_lock", "name": "Lock Haven / Catskill", "owner": "EQT", "top_ft": 800, "bot_ft": 4200, "color": "#A1887F", "lithology": "Sandstone / Siltstone" },
+      { "id": "mc_onon", "name": "Onondaga Limestone", "owner": "EQT", "top_ft": 4200, "bot_ft": 5600, "color": "#80CBC4", "lithology": "Carbonate" },
+      { "id": "mc_target", "name": "Marcellus Shale — TARGET", "owner": "EQT", "top_ft": 5600, "bot_ft": 6200, "color": "#E53935", "lithology": "Black Organic Shale — Pay" },
+      { "id": "mc_trenton", "name": "Trenton / Black River", "owner": "OPEN", "top_ft": 6200, "bot_ft": 9800, "color": "#37474F", "lithology": "Hard Limestone" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 1200 },
+      { "type": "curve", "radius": 250 },
+      { "type": "horizontal", "length": 8500 }
+    ],
+    "branches": []
+  },
+  {
+    "name": "DJ Niobrara V-7",
+    "country": "USA",
+    "state": "CO",
+    "basin": "DJ Basin",
+    "sub_basin": "Weld County Core",
+    "api": "05-123-39821-00-00",
+    "operator": "Civitas Resources",
+    "lat": 40.3100,
+    "lon": -104.6800,
+    "elevation_ft": 4900,
+    "total_depth_ft": 13200,
+    "spud_date": "2023-06-10",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 620,
+      "gas_mcfd": 1100,
+      "water_bwpd": 890,
+      "gor": 1774,
+      "wc_pct": 59
+    },
+    "lease": "Weld County Unit 3314",
+    "layers": [
+      { "id": "dj_sf", "name": "Surface Casing", "owner": "Civitas", "top_ft": 0, "bot_ft": 1000, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "dj_gst", "name": "Goshen / Fort Hays", "owner": "Civitas", "top_ft": 1000, "bot_ft": 4500, "color": "#FFF176", "lithology": "Chalk / Marl" },
+      { "id": "dj_smky", "name": "Smoky Hill Chalk", "owner": "Civitas", "top_ft": 4500, "bot_ft": 7200, "color": "#F9A825", "lithology": "Chalk" },
+      { "id": "dj_target", "name": "Niobrara B Chalk — TARGET", "owner": "Civitas", "top_ft": 7200, "bot_ft": 7800, "color": "#E53935", "lithology": "Chalky Pay Zone" },
+      { "id": "dj_codell", "name": "Codell Sandstone", "owner": "Civitas", "top_ft": 7800, "bot_ft": 9000, "color": "#FF7043", "lithology": "Tight Sandstone" },
+      { "id": "dj_jura", "name": "Jurassic Basement", "owner": "OPEN", "top_ft": 9000, "bot_ft": 13200, "color": "#37474F", "lithology": "Hard Basement" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 1600 },
+      { "type": "curve", "radius": 300 },
+      { "type": "horizontal", "length": 6800 }
+    ],
+    "branches": []
+  },
+  {
+    "name": "Anadarko SCOOP-3H",
+    "country": "USA",
+    "state": "OK",
+    "basin": "Anadarko",
+    "sub_basin": "SCOOP",
+    "api": "35-051-22801-00-00",
+    "operator": "Devon Energy",
+    "lat": 34.7800,
+    "lon": -97.6200,
+    "elevation_ft": 1120,
+    "total_depth_ft": 19500,
+    "spud_date": "2022-12-01",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 390,
+      "gas_mcfd": 4800,
+      "water_bwpd": 1200,
+      "gor": 12308,
+      "wc_pct": 75
+    },
+    "lease": "Garvin County Unit 450",
+    "layers": [
+      { "id": "sc_sf", "name": "Surface Casing", "owner": "Devon", "top_ft": 0, "bot_ft": 900, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "sc_sp", "name": "Springer Shale", "owner": "Devon", "top_ft": 900, "bot_ft": 5200, "color": "#546E7A", "lithology": "Dark Shale" },
+      { "id": "sc_mer", "name": "Meramec Limestone", "owner": "Devon", "top_ft": 5200, "bot_ft": 9800, "color": "#80CBC4", "lithology": "Carbonate" },
+      { "id": "sc_wood", "name": "Woodford Shale — TARGET", "owner": "Devon", "top_ft": 9800, "bot_ft": 10600, "color": "#E53935", "lithology": "Organic Shale — Pay" },
+      { "id": "sc_hm", "name": "Hunton Limestone", "owner": "OPEN", "top_ft": 10600, "bot_ft": 14200, "color": "#4E342E", "lithology": "Limestone" },
+      { "id": "sc_sl", "name": "Sylvan / Viola", "owner": "OPEN", "top_ft": 14200, "bot_ft": 19500, "color": "#263238", "lithology": "Tight Carbonate / Basement" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 2000 },
+      { "type": "curve", "radius": 380 },
+      { "type": "horizontal", "length": 8100 }
+    ],
+    "branches": []
+  },
+  {
+    "name": "Utica Point Pleasant VP-2",
+    "country": "USA",
+    "state": "OH",
+    "basin": "Appalachian",
+    "sub_basin": "Utica / Point Pleasant",
+    "api": "34-019-10902-00-00",
+    "operator": "Ascent Resources",
+    "lat": 40.1200,
+    "lon": -81.6800,
+    "elevation_ft": 980,
+    "total_depth_ft": 12200,
+    "spud_date": "2023-02-14",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 220,
+      "gas_mcfd": 12400,
+      "water_bwpd": 550,
+      "gor": 56364,
+      "wc_pct": 70
+    },
+    "lease": "Coshocton County Unit 12",
+    "layers": [
+      { "id": "ut_sf", "name": "Surface Casing", "owner": "Ascent", "top_ft": 0, "bot_ft": 700, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "ut_qua", "name": "Queenston / Clinton", "owner": "Ascent", "top_ft": 700, "bot_ft": 4500, "color": "#A5D6A7", "lithology": "Sandstone" },
+      { "id": "ut_marc", "name": "Marcellus Shale", "owner": "Ascent", "top_ft": 4500, "bot_ft": 7200, "color": "#546E7A", "lithology": "Organic Shale" },
+      { "id": "ut_target", "name": "Utica / Point Pleasant — TARGET", "owner": "Ascent", "top_ft": 7200, "bot_ft": 7900, "color": "#E53935", "lithology": "Black Organic Shale — Pay" },
+      { "id": "ut_trtn", "name": "Trenton Limestone", "owner": "OPEN", "top_ft": 7900, "bot_ft": 12200, "color": "#37474F", "lithology": "Hard Carbonate" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 1400 },
+      { "type": "curve", "radius": 280 },
+      { "type": "horizontal", "length": 7800 }
+    ],
+    "branches": []
+  },
+  {
+    "name": "Powder River Basin V-1",
+    "country": "USA",
+    "state": "WY",
+    "basin": "Powder River",
+    "sub_basin": "Turner Sand",
+    "api": "49-005-21341-00-00",
+    "operator": "Chesapeake Energy",
+    "lat": 44.3500,
+    "lon": -105.4100,
+    "elevation_ft": 4100,
+    "total_depth_ft": 11800,
+    "spud_date": "2023-05-18",
+    "status": "drilled",
+    "well_type": "vertical",
+    "production": {
+      "oil_bopd": 310,
+      "gas_mcfd": 480,
+      "water_bwpd": 680,
+      "gor": 1548,
+      "wc_pct": 68
+    },
+    "lease": "Campbell County Unit 7",
+    "layers": [
+      { "id": "pr_sf", "name": "Surface Casing", "owner": "Chesapeake", "top_ft": 0, "bot_ft": 1200, "color": "#B0BEC5", "lithology": "Alluvium / Soil" },
+      { "id": "pr_mow", "name": "Mowry Shale", "owner": "Chesapeake", "top_ft": 1200, "bot_ft": 5800, "color": "#78909C", "lithology": "Dark Shale" },
+      { "id": "pr_target", "name": "Turner Sand — TARGET", "owner": "Chesapeake", "top_ft": 5800, "bot_ft": 6500, "color": "#E53935", "lithology": "Tight Sandstone — Pay" },
+      { "id": "pr_snn", "name": "Shannon Sand", "owner": "Chesapeake", "top_ft": 6500, "bot_ft": 9000, "color": "#FF7043", "lithology": "Sandstone" },
+      { "id": "pr_deep", "name": "Deep Cretaceous", "owner": "OPEN", "top_ft": 9000, "bot_ft": 11800, "color": "#37474F", "lithology": "Deep Shale" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 6500 }
+    ],
+    "branches": []
+  },
+  {
+    "name": "Permian Deep DS-9X",
+    "country": "USA",
+    "state": "TX",
+    "basin": "Permian",
+    "sub_basin": "Midland Deep",
+    "api": "42-227-40012-00-00",
+    "operator": "ConocoPhillips",
+    "lat": 32.4100,
+    "lon": -101.9500,
+    "elevation_ft": 2900,
+    "total_depth_ft": 22800,
+    "spud_date": "2021-08-01",
+    "status": "producing",
+    "well_type": "directional",
+    "production": {
+      "oil_bopd": 1600,
+      "gas_mcfd": 4200,
+      "water_bwpd": 6200,
+      "gor": 2625,
+      "wc_pct": 79
+    },
+    "lease": "Howard County Unit 2290",
+    "layers": [
+      { "id": "cp_sf", "name": "Surface Casing", "owner": "ConocoPhillips", "top_ft": 0, "bot_ft": 1500, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "cp_gl", "name": "Glorieta / Yeso", "owner": "ConocoPhillips", "top_ft": 1500, "bot_ft": 6500, "color": "#CE93D8", "lithology": "Dolomite / Evaporite" },
+      { "id": "cp_clr", "name": "Clearfork", "owner": "ConocoPhillips", "top_ft": 6500, "bot_ft": 11000, "color": "#8D6E63", "lithology": "Carbonate" },
+      { "id": "cp_spb", "name": "Spraberry 3rd", "owner": "ConocoPhillips", "top_ft": 11000, "bot_ft": 14200, "color": "#F48FB1", "lithology": "Siltstone" },
+      { "id": "cp_target", "name": "Wolfcamp A/B — TARGET", "owner": "ConocoPhillips", "top_ft": 14200, "bot_ft": 15200, "color": "#E53935", "lithology": "Organic Shale — Pay" },
+      { "id": "cp_strn", "name": "Strawn / Atoka", "owner": "OPEN", "top_ft": 15200, "bot_ft": 19500, "color": "#546E7A", "lithology": "Tight Carbonate" },
+      { "id": "cp_ellenb", "name": "Ellenburger Dolomite", "owner": "OPEN", "top_ft": 19500, "bot_ft": 22800, "color": "#263238", "lithology": "Deep Carbonate — Basement" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 2000 },
+      { "type": "curve", "radius": 500 },
+      { "type": "horizontal", "length": 4000 }
+    ],
+    "branches": [
+      {
+        "trajectory": [
+          { "type": "curve", "radius": 300 },
+          { "type": "horizontal", "length": 2200 }
+        ]
+      }
     ]
   },
   {
-    "name": "Çayırdere Shale #1",
-    "country": "Turkey",
-    "region": "Thrace Basin",
-    "api": "TR-THR-10001",
-    "lat": 41.3500,
-    "lon": 27.2200,
-    "elevation_ft": 520,
-    "total_depth_ft": 8500,
-    "producing_depth_ft": 8500,
+    "name": "Barnett SH-44",
+    "country": "USA",
+    "state": "TX",
+    "basin": "Fort Worth",
+    "sub_basin": "Core Barnett",
+    "api": "42-121-38801-00-00",
+    "operator": "BKV Corporation",
+    "lat": 32.8500,
+    "lon": -97.3800,
+    "elevation_ft": 620,
+    "total_depth_ft": 10500,
+    "spud_date": "2020-03-01",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 22,
+      "gas_mcfd": 4200,
+      "water_bwpd": 180,
+      "gor": 190909,
+      "wc_pct": 5
+    },
+    "lease": "Tarrant County Unit 144",
     "layers": [
-      { "id": "cy1", "name": "Ergene Formation", "owner": "Turkish Petroleum (TPAO)", "top_ft": 0, "bot_ft": 1800, "color": "#7F8C8D" },
-      { "id": "cy2", "name": "Danişmen Fm", "owner": "OPEN - No Lessee", "top_ft": 1800, "bot_ft": 4200, "color": "#27AE60" },
-      { "id": "cy3", "name": "Mezardere Shale", "owner": "Turkish Petroleum (TPAO)", "top_ft": 4200, "bot_ft": 8500, "color": "#34495E" }
-    ]
+      { "id": "bn_sf", "name": "Surface Casing", "owner": "BKV", "top_ft": 0, "bot_ft": 700, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "bn_pen", "name": "Pennsylvanian / Palo Pinto", "owner": "BKV", "top_ft": 700, "bot_ft": 4500, "color": "#BCAAA4", "lithology": "Limestone" },
+      { "id": "bn_ms", "name": "Marble Falls Limestone", "owner": "BKV", "top_ft": 4500, "bot_ft": 6500, "color": "#80CBC4", "lithology": "Carbonate" },
+      { "id": "bn_target", "name": "Barnett Shale — TARGET", "owner": "BKV", "top_ft": 6500, "bot_ft": 7300, "color": "#E53935", "lithology": "Organic Shale — Pay" },
+      { "id": "bn_ellenb", "name": "Ellenburger Dolomite", "owner": "BKV", "top_ft": 7300, "bot_ft": 10500, "color": "#263238", "lithology": "Deep Dolomite" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 1100 },
+      { "type": "curve", "radius": 220 },
+      { "type": "horizontal", "length": 5800 }
+    ],
+    "branches": []
   },
   {
-    "name": "Diyarbakır Deep #2",
-    "country": "Turkey",
-    "region": "Southeast Anatolia",
-    "api": "TR-DYB-10002",
-    "lat": 37.9100,
-    "lon": 40.2300,
-    "elevation_ft": 2100,
-    "total_depth_ft": 14500,
-    "producing_depth_ft": 14500,
+    "name": "Fayetteville SH-18",
+    "country": "USA",
+    "state": "AR",
+    "basin": "Arkoma",
+    "sub_basin": "Fayetteville Shale",
+    "api": "05-085-21801-00-00",
+    "operator": "SWN Energy",
+    "lat": 35.3400,
+    "lon": -92.4400,
+    "elevation_ft": 560,
+    "total_depth_ft": 7400,
+    "spud_date": "2021-06-12",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 8,
+      "gas_mcfd": 3100,
+      "water_bwpd": 90,
+      "gor": 387500,
+      "wc_pct": 3
+    },
+    "lease": "Conway County Unit 38",
     "layers": [
-      { "id": "dy1", "name": "Şelmo Formation", "owner": "TPAO", "top_ft": 0, "bot_ft": 3600, "color": "#E74C3C" },
-      { "id": "dy2", "name": "Germav Fm", "owner": "TPAO", "top_ft": 3600, "bot_ft": 8400, "color": "#D35400" },
-      { "id": "dy3", "name": "Mardin Group", "owner": "TPAO-Shell JV", "top_ft": 8400, "bot_ft": 14500, "color": "#8E44AD" }
-    ]
+      { "id": "fv_sf", "name": "Surface Casing", "owner": "SWN", "top_ft": 0, "bot_ft": 600, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "fv_atk", "name": "Atoka / Bloyd", "owner": "SWN", "top_ft": 600, "bot_ft": 3200, "color": "#A5D6A7", "lithology": "Shale / Sandstone" },
+      { "id": "fv_target", "name": "Fayetteville Shale — TARGET", "owner": "SWN", "top_ft": 3200, "bot_ft": 3900, "color": "#E53935", "lithology": "Organic Shale — Pay" },
+      { "id": "fv_hntn", "name": "Hunton / St. Peter", "owner": "OPEN", "top_ft": 3900, "bot_ft": 7400, "color": "#37474F", "lithology": "Hard Carbonate" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 900 },
+      { "type": "curve", "radius": 200 },
+      { "type": "horizontal", "length": 5200 }
+    ],
+    "branches": []
   },
   {
-    "name": "Gabar Mountain #4",
-    "country": "Turkey",
-    "region": "Şırnak",
-    "api": "TR-SRN-10003",
-    "lat": 37.4500,
-    "lon": 42.4800,
-    "elevation_ft": 3200,
-    "total_depth_ft": 12800,
-    "producing_depth_ft": 12800,
+    "name": "Green River WY-3V",
+    "country": "USA",
+    "state": "WY",
+    "basin": "Green River",
+    "sub_basin": "Pinedale Anticline",
+    "api": "49-035-10321-00-00",
+    "operator": "Ultra Petroleum",
+    "lat": 42.8600,
+    "lon": -109.8500,
+    "elevation_ft": 7200,
+    "total_depth_ft": 14200,
+    "spud_date": "2022-07-22",
+    "status": "shut-in",
+    "well_type": "vertical",
+    "production": {
+      "oil_bopd": 18,
+      "gas_mcfd": 8900,
+      "water_bwpd": 40,
+      "gor": 494444,
+      "wc_pct": 1
+    },
+    "lease": "Sublette County Unit 3",
     "layers": [
-      { "id": "gb1", "name": "Weathered Zone", "owner": "OPEN - No Lessee", "top_ft": 0, "bot_ft": 1500, "color": "#27AE60" },
-      { "id": "gb2", "name": "Midyat Group", "owner": "TPAO", "top_ft": 1500, "bot_ft": 6200, "color": "#F39C12" },
-      { "id": "gb3", "name": "Mardin Limestone", "owner": "TPAO", "top_ft": 6200, "bot_ft": 12800, "color": "#16A085" }
-    ]
+      { "id": "gr_sf", "name": "Surface Casing", "owner": "Ultra", "top_ft": 0, "bot_ft": 1800, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "gr_lance", "name": "Lance / Mesa Verde", "owner": "Ultra", "top_ft": 1800, "bot_ft": 6000, "color": "#A1887F", "lithology": "Tight Sandstone" },
+      { "id": "gr_target", "name": "Pinedale Tight Sand — TARGET", "owner": "Ultra", "top_ft": 6000, "bot_ft": 7200, "color": "#E53935", "lithology": "Tight Gas Sand — Pay" },
+      { "id": "gr_deep", "name": "Deep Cretaceous", "owner": "OPEN", "top_ft": 7200, "bot_ft": 14200, "color": "#263238", "lithology": "Deep Shale" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 7200 }
+    ],
+    "branches": []
   },
   {
-    "name": "Sakarya Gas Offshore #9",
-    "country": "Turkey",
-    "region": "Black Sea",
-    "api": "TR-BLK-10004",
-    "lat": 42.1200,
-    "lon": 35.6500,
-    "elevation_ft": -7200,
-    "total_depth_ft": 17500,
-    "producing_depth_ft": 17500,
+    "name": "Midcontinent Merge-5H",
+    "country": "USA",
+    "state": "OK",
+    "basin": "Anadarko",
+    "sub_basin": "STACK / MERGE",
+    "api": "35-059-33401-00-00",
+    "operator": "Marathon Oil",
+    "lat": 35.8200,
+    "lon": -98.2100,
+    "elevation_ft": 1380,
+    "total_depth_ft": 15800,
+    "spud_date": "2023-08-01",
+    "status": "producing",
+    "well_type": "horizontal",
+    "production": {
+      "oil_bopd": 480,
+      "gas_mcfd": 2800,
+      "water_bwpd": 1400,
+      "gor": 5833,
+      "wc_pct": 74
+    },
+    "lease": "Kingfisher County Unit 204",
     "layers": [
-      { "id": "sk1", "name": "Seafloor Sediments", "owner": "TPAO", "top_ft": 0, "bot_ft": 3400, "color": "#3498DB" },
-      { "id": "sk2", "name": "Akçakoca Fm", "owner": "OPEN - No Lessee", "top_ft": 3400, "bot_ft": 9800, "color": "#27AE60" },
-      { "id": "sk3", "name": "Sakarya Reservoir", "owner": "TPAO", "top_ft": 9800, "bot_ft": 17500, "color": "#1ABC9C" }
+      { "id": "mk_sf", "name": "Surface Casing", "owner": "Marathon", "top_ft": 0, "bot_ft": 800, "color": "#B0BEC5", "lithology": "Alluvium" },
+      { "id": "mk_dog", "name": "Dog Creek / Blaine", "owner": "Marathon", "top_ft": 800, "bot_ft": 4800, "color": "#CE93D8", "lithology": "Anhydrite / Halite" },
+      { "id": "mk_cass", "name": "Caney / Sycamore", "owner": "Marathon", "top_ft": 4800, "bot_ft": 8200, "color": "#7986CB", "lithology": "Shale / Limestone" },
+      { "id": "mk_mer", "name": "Meramec Limestone", "owner": "Marathon", "top_ft": 8200, "bot_ft": 11000, "color": "#4DB6AC", "lithology": "Carbonate" },
+      { "id": "mk_target", "name": "Oswego / Woodford — TARGET", "owner": "Marathon", "top_ft": 11000, "bot_ft": 11800, "color": "#E53935", "lithology": "Organic Shale — Pay" },
+      { "id": "mk_hnt", "name": "Hunton Limestone", "owner": "OPEN", "top_ft": 11800, "bot_ft": 15800, "color": "#37474F", "lithology": "Hard Carbonate" }
+    ],
+    "trajectory": [
+      { "type": "vertical", "length": 1900 },
+      { "type": "curve", "radius": 350 },
+      { "type": "horizontal", "length": 7400 }
+    ],
+    "branches": [
+      {
+        "trajectory": [
+          { "type": "curve", "radius": 250 },
+          { "type": "horizontal", "length": 1800 }
+        ]
+      }
     ]
   }
 ]
