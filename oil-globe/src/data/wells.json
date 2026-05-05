@@ -1,191 +1,2080 @@
+
 [
   {
-    "name": "McKenzie Bakken Hz #1",
+    "name": "SADIEBUG 1606 8-35MH",
     "country": "United States",
-    "region": "North Dakota",
-    "api": "33-053-01111",
-    "lat": 47.8500,
-    "lon": -103.6200,
-    "elevation_ft": 2350,
+    "region": "OK",
+    "basin": "ANADARKO",
+    "county": "KINGFISHER",
+    "api": "35-073-26286-00",
+    "lat": 35.8138,
+    "lon": -97.80357,
+    "bottomhole_lat": 35.826991,
+    "bottomhole_lon": -97.802158,
+    "elevation_ft": null,
+    "total_depth_ft": 12767,
+    "tvd_ft": 7565,
+    "producing_depth_ft": 12767,
+    "operator": "MACH NATURAL RESOURCES LP",
+    "play": "SCOOP|STACK",
+    "trajectory": "HORIZONTAL",
+    "layers": [
+      {
+        "id": "w1l1",
+        "name": "TOPEKA",
+        "owner": "MACH NATURAL RESOURCES LP",
+        "top_ft": 4370,
+        "bot_ft": 6035,
+        "color": "#45B7D1"
+      },
+      {
+        "id": "w1l2",
+        "name": "COTTAGE GROVE",
+        "owner": "MACH NATURAL RESOURCES LP",
+        "top_ft": 6035,
+        "bot_ft": 6398,
+        "color": "#27AE60"
+      },
+      {
+        "id": "w1l3",
+        "name": "CHECKERBOARD",
+        "owner": "MACH NATURAL RESOURCES LP",
+        "top_ft": 6398,
+        "bot_ft": 6842,
+        "color": "#F39C12"
+      },
+      {
+        "id": "w1l4",
+        "name": "OSWEGO",
+        "owner": "MACH NATURAL RESOURCES LP",
+        "top_ft": 6842,
+        "bot_ft": 7010,
+        "color": "#E74C3C"
+      },
+      {
+        "id": "w1l5",
+        "name": "VERDIGRIS",
+        "owner": "MACH NATURAL RESOURCES LP",
+        "top_ft": 7010,
+        "bot_ft": 7129,
+        "color": "#9B59B6"
+      },
+      {
+        "id": "w1l6",
+        "name": "PINK LIME",
+        "owner": "MACH NATURAL RESOURCES LP",
+        "top_ft": 7129,
+        "bot_ft": 7287,
+        "color": "#1ABC9C"
+      },
+      {
+        "id": "w1l7",
+        "name": "MISSISSIPPIAN",
+        "owner": "MACH NATURAL RESOURCES LP",
+        "top_ft": 7287,
+        "bot_ft": 12767,
+        "color": "#3498DB"
+      }
+    ],
+    "ownership": [
+      {
+        "id": "w1o1",
+        "name": "GRIFFITH LAND SERVICES INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o2",
+        "name": "MAVERICK HOLDINGS LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 7298,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o3",
+        "name": "CHESAPEAKE EXPLORATION LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o4",
+        "name": "CHESAPEAKE EXPLORATION L.L.C.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 8335,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o5",
+        "name": "CHESAPEAKE EXPLORATION LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 8639,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o6",
+        "name": "WARD PETROLEUM CORPORATION",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 7150,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o7",
+        "name": "WARD PETROLEUM CORPORATION",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 7155,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o8",
+        "name": "R.K. PINSON & ASSOCIATES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o9",
+        "name": "OKLAHOMA ENERGY ACQUISITIONS LP",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o10",
+        "name": "MINAHAN PETROLEUM LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 7552,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w1o11",
+        "name": "STAGHORN PETROLEUM LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w1o12",
+        "name": "JAX INVESTMENTS LLC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w1o13",
+        "name": "R D DAVIS & ASSOCIATES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w1o14",
+        "name": "MARATHON OIL COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w1o15",
+        "name": "GASTAR EXPLORATION INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w1o16",
+        "name": "WAKE ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w1o17",
+        "name": "RSTACK WALNUT LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w1o18",
+        "name": "NEWFIELD EXPLORATION MID CONTINENT INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w1o19",
+        "name": "GRIFFITH LAND SERVICES INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w1o20",
+        "name": "LOWRY LAND CO INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12767,
+        "category": "FULL DEPTH (no depth limit)"
+      }
+    ],
+    "leases": [],
+    "perforations": [
+      {
+        "id": "w1p1",
+        "name": "MISSISSIPPIAN",
+        "top_ft": 7861,
+        "bot_ft": 12767,
+        "method": "PERFORATED",
+        "type": "FRACTURED",
+        "date": "",
+        "source": "ENVERUS",
+        "color": "#FF1744"
+      }
+    ],
+    "enverus_perf": {
+      "upper_perf_ft": 7861,
+      "lower_perf_ft": 12767,
+      "perf_interval_ft": 4906,
+      "formation": "MISSISSIPPIAN",
+      "bh_formation": ""
+    }
+  },
+  {
+    "name": "EDNA 33/4 AP 1H",
+    "country": "United States",
+    "region": "OK",
+    "basin": "ANADARKO",
+    "county": "DEWEY",
+    "api": "35-043-23769-00",
+    "lat": 35.828464,
+    "lon": -99.005797,
+    "bottomhole_lat": 35.79878,
+    "bottomhole_lon": -99.006706,
+    "elevation_ft": null,
+    "total_depth_ft": 20280,
+    "tvd_ft": 10225,
+    "producing_depth_ft": 20262,
+    "operator": "MEWBOURNE OIL",
+    "play": "SCOOP|STACK",
+    "trajectory": "HORIZONTAL",
+    "layers": [
+      {
+        "id": "w2l1",
+        "name": "CHEROKEE",
+        "owner": "MEWBOURNE OIL",
+        "top_ft": 10040,
+        "bot_ft": 10040,
+        "color": "#45B7D1"
+      },
+      {
+        "id": "w2l2",
+        "name": "CHEROKEE (RED FORK)",
+        "owner": "MEWBOURNE OIL",
+        "top_ft": 10040,
+        "bot_ft": 20280,
+        "color": "#27AE60"
+      }
+    ],
+    "ownership": [
+      {
+        "id": "w2o1",
+        "name": "J & H RESOURCES LLLP",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o2",
+        "name": "CITIZEN ENERGY II LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o3",
+        "name": "DEVON ENERGY PRODUCTION COMPANY LP",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o4",
+        "name": "KEW DRILLING",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o5",
+        "name": "CHESAPEAKE EXPLORATION L.L.C.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 11564,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o6",
+        "name": "DUNCAN OIL PROPERTIES, INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 9700,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o7",
+        "name": "CONTINENTAL LAND RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 9420,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o8",
+        "name": "320 EXPLORATION LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 8450,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o9",
+        "name": "320 EXPLORATION LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o10",
+        "name": "VALPOINT ENERGY PARTNERS II LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 8450,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w2o11",
+        "name": "TOMAHAWK LAND RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w2o12",
+        "name": "CONTINENTAL RESOURCES INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w2o13",
+        "name": "MINERAL SWAP INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w2o14",
+        "name": "PRAIRIE OIL AND GAS LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w2o15",
+        "name": "ANNASTIN ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w2o16",
+        "name": "CARRERA ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w2o17",
+        "name": "RED RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w2o18",
+        "name": "R.D. DAVIS & ASSOCIATES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w2o19",
+        "name": "DEVON ENERGY PRODUCTION COMPANY LP",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w2o20",
+        "name": "PATRIOT FIELD SERVICES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20280,
+        "category": "FULL DEPTH (no depth limit)"
+      }
+    ],
+    "leases": [],
+    "perforations": [
+      {
+        "id": "w2p1",
+        "name": "CHEROKEE (RED FORK)",
+        "top_ft": 10374,
+        "bot_ft": 20262,
+        "method": "PERFORATED",
+        "type": "FRACTURED",
+        "date": "",
+        "source": "ENVERUS",
+        "color": "#FF1744"
+      }
+    ],
+    "enverus_perf": {
+      "upper_perf_ft": 10374,
+      "lower_perf_ft": 20262,
+      "perf_interval_ft": 9888,
+      "formation": "CHEROKEE (RED FORK)",
+      "bh_formation": ""
+    }
+  },
+  {
+    "name": "SMOOT QUARTER FIU 4-1-12XHM",
+    "country": "United States",
+    "region": "OK",
+    "basin": "ANADARKO",
+    "county": "BLAINE",
+    "api": "35-011-24162-00",
+    "lat": 35.898069,
+    "lon": -98.5309,
+    "bottomhole_lat": 35.87027,
+    "bottomhole_lon": -98.530865,
+    "elevation_ft": null,
     "total_depth_ft": 20500,
-    "producing_depth_ft": 20500,
+    "tvd_ft": 10896,
+    "producing_depth_ft": 20311,
+    "operator": "VALIDUS ENERGY",
+    "play": "SCOOP|STACK",
+    "trajectory": "HORIZONTAL",
     "layers": [
-      { "id": "m1", "name": "Glacial Till", "owner": "Continental Resources", "top_ft": 0, "bot_ft": 5800, "color": "#45B7D1" },
-      { "id": "m2", "name": "Madison Group", "owner": "OPEN - No Lessee", "top_ft": 5800, "bot_ft": 8900, "color": "#27AE60" },
-      { "id": "m3", "name": "Bakken Formation", "owner": "Hess Corporation", "top_ft": 8900, "bot_ft": 20500, "color": "#F39C12" }
-    ]
+      {
+        "id": "w3l1",
+        "name": "MISSISSIPPIAN",
+        "owner": "VALIDUS ENERGY",
+        "top_ft": 11047,
+        "bot_ft": 20500,
+        "color": "#45B7D1"
+      }
+    ],
+    "ownership": [
+      {
+        "id": "w3o1",
+        "name": "PARKER INVESTMENT GROUP INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 11240,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o2",
+        "name": "CONTINENTAL RESOURCES INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 11030,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o3",
+        "name": "BIG ERN OIL LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o4",
+        "name": "4 OF US REOURCES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o5",
+        "name": "CONTINENTAL RESOURCES INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o6",
+        "name": "CONTINENTAL RESOURCES INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12500,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o7",
+        "name": "T.S. DUDLEY LAND CO. INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o8",
+        "name": "CONTINENTAL RESOURCES, INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 8698,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o9",
+        "name": "MARATHON OIL COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 9200,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o10",
+        "name": "DERBY EXPLORATION LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 200,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w3o11",
+        "name": "J C LAND MANAGEMENT INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w3o12",
+        "name": "MIDWEST LAND LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w3o13",
+        "name": "CONTINENTAL RESOURCES INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w3o14",
+        "name": "HIGHPOINTE ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w3o15",
+        "name": "GATEWAY ENTERPRISES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w3o16",
+        "name": "MEADOWS OIL & GAS CORP",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w3o17",
+        "name": "EK EXPLORATION LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w3o18",
+        "name": "ARMOR ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w3o19",
+        "name": "ANNASTIN ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w3o20",
+        "name": "DERBY EXPLORATION LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 20500,
+        "category": "FULL DEPTH (no depth limit)"
+      }
+    ],
+    "leases": [],
+    "perforations": [
+      {
+        "id": "w3p1",
+        "name": "Unknown",
+        "top_ft": 11023,
+        "bot_ft": 20311,
+        "method": "PERFORATED",
+        "type": "FRACTURED",
+        "date": "",
+        "source": "ENVERUS",
+        "color": "#FF1744"
+      }
+    ],
+    "enverus_perf": {
+      "upper_perf_ft": 11023,
+      "lower_perf_ft": 20311,
+      "perf_interval_ft": 9288,
+      "formation": "Unknown",
+      "bh_formation": ""
+    }
   },
   {
-    "name": "Mountrail Three Forks #2",
+    "name": "HATFIELD RANCH 0606 3-1-12WXH",
     "country": "United States",
-    "region": "North Dakota",
-    "api": "33-061-02222",
-    "lat": 48.1200,
-    "lon": -102.5500,
-    "elevation_ft": 2200,
-    "total_depth_ft": 21200,
-    "producing_depth_ft": 21200,
+    "region": "OK",
+    "basin": "ANADARKO",
+    "county": "GRADY",
+    "api": "35-051-25043-00",
+    "lat": 35.031782,
+    "lon": -97.784909,
+    "bottomhole_lat": 35.001082,
+    "bottomhole_lon": -97.781767,
+    "elevation_ft": null,
+    "total_depth_ft": 23540,
+    "tvd_ft": 13161,
+    "producing_depth_ft": 22694,
+    "operator": "FLYWHEEL ENERGY",
+    "play": "SCOOP|STACK",
+    "trajectory": "HORIZONTAL",
     "layers": [
-      { "id": "mt1", "name": "Glacial Till", "owner": "Slawson Exploration", "top_ft": 0, "bot_ft": 4000, "color": "#9B59B6" },
-      { "id": "mt2", "name": "Three Forks Fm", "owner": "Marathon Oil", "top_ft": 4000, "bot_ft": 21200, "color": "#E74C3C" }
-    ]
+      {
+        "id": "w4l1",
+        "name": "WOODFORD",
+        "owner": "FLYWHEEL ENERGY",
+        "top_ft": 13239,
+        "bot_ft": 23540,
+        "color": "#45B7D1"
+      }
+    ],
+    "ownership": [
+      {
+        "id": "w4o1",
+        "name": "NEXUS BSP LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 10600,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o2",
+        "name": "SUNDOWN ENERGY LP",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 4000,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o3",
+        "name": "ENERGY LEASE ACCOUNT LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o4",
+        "name": "M.E. WATKINS",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 3600,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o5",
+        "name": "THE PROSPECTIVE INVESTMENT AND TRADING CO. LTD.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 5000,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o6",
+        "name": "CONTINENTAL RESOURCES INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o7",
+        "name": "CHRISNIK ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o8",
+        "name": "TURNER OIL & GAS PROPERTIES INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o9",
+        "name": "SPRING OPERATING COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 4000,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o10",
+        "name": "BAYS EXPLORATION INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w4o11",
+        "name": "CONTINENTAL RESOURCES INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w4o12",
+        "name": "FELIX ENERGY HOLDINGS II LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w4o13",
+        "name": "KEYSTONE ENERGY PARTNERS LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w4o14",
+        "name": "DROVERS TRAIL LAND COMPANY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w4o15",
+        "name": "WARD PETROLEUM CORPORATION",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w4o16",
+        "name": "89 ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w4o17",
+        "name": "SWITCHBACK RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w4o18",
+        "name": "ECHO OPERATING LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w4o19",
+        "name": "UNIT PETROLEUM COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w4o20",
+        "name": "WARWICK - MINERVA LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23540,
+        "category": "FULL DEPTH (no depth limit)"
+      }
+    ],
+    "leases": [],
+    "perforations": [
+      {
+        "id": "w4p1",
+        "name": "WOODFORD",
+        "top_ft": 13339,
+        "bot_ft": 22694,
+        "method": "PERFORATED",
+        "type": "FRACTURED",
+        "date": "",
+        "source": "ENVERUS",
+        "color": "#FF1744"
+      }
+    ],
+    "enverus_perf": {
+      "upper_perf_ft": 13339,
+      "lower_perf_ft": 22694,
+      "perf_interval_ft": 9355,
+      "formation": "WOODFORD",
+      "bh_formation": ""
+    }
   },
   {
-    "name": "Dunn Core #5",
+    "name": "DAVIS 9/16 DM 2H",
     "country": "United States",
-    "region": "North Dakota",
-    "api": "33-025-03333",
-    "lat": 47.3500,
-    "lon": -102.8800,
-    "elevation_ft": 2450,
-    "total_depth_ft": 19800,
-    "producing_depth_ft": 19800,
+    "region": "OK",
+    "basin": "ANADARKO",
+    "county": "ELLIS",
+    "api": "35-045-23895-00",
+    "lat": 36.0569,
+    "lon": -99.7703,
+    "bottomhole_lat": 36.028786,
+    "bottomhole_lon": -99.771476,
+    "elevation_ft": null,
+    "total_depth_ft": 19930,
+    "tvd_ft": 10090,
+    "producing_depth_ft": 19915,
+    "operator": "MEWBOURNE OIL",
+    "play": "SCOOP|STACK",
+    "trajectory": "HORIZONTAL",
     "layers": [
-      { "id": "d1", "name": "Surface", "owner": "OPEN - No Lessee", "top_ft": 0, "bot_ft": 4400, "color": "#27AE60" },
-      { "id": "d2", "name": "Bakken Formation", "owner": "ConocoPhillips", "top_ft": 4400, "bot_ft": 19800, "color": "#3498DB" }
-    ]
+      {
+        "id": "w5l1",
+        "name": "CHEROKEE",
+        "owner": "MEWBOURNE OIL",
+        "top_ft": 9800,
+        "bot_ft": 9900,
+        "color": "#45B7D1"
+      },
+      {
+        "id": "w5l2",
+        "name": "CHEROKEE GROUP",
+        "owner": "MEWBOURNE OIL",
+        "top_ft": 9900,
+        "bot_ft": 19930,
+        "color": "#27AE60"
+      }
+    ],
+    "ownership": [
+      {
+        "id": "w5o1",
+        "name": "JACKFORK LAND INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o2",
+        "name": "VALPOINT ENERGY PARTNERS II LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o3",
+        "name": "CHESAPEAKE EXPLORATION LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o4",
+        "name": "CHESAPEAKE EXPLORATION L.L.C.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 8466,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o5",
+        "name": "PLANO PETROLEUM, L.L.C.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o6",
+        "name": "JACKFORK LAND INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 8280,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o7",
+        "name": "NEWFIELD EXPLORATION-MID-CONTINENT INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 12730,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o8",
+        "name": "CITRUS ENERGY CORP",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 11460,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o9",
+        "name": "NWR MINERAL PARTNERS LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o10",
+        "name": "MEWBOURNE OIL COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 9389,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w5o11",
+        "name": "RED BLUFF RESOURCES OPERATING LLC.",
+               
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 14192,
+        "category": "FULL DEPTH (no depth limit)"
+      }
+    ],
+    "leases": [],
+    "perforations": [
+      {
+        "id": "w6p1",
+        "name": "MISSISSIPPIAN",
+        "top_ft": 9426,
+        "bot_ft": 14096,
+        "method": "PERFORATED",
+        "type": "FRACTURED",
+        "date": "",
+        "source": "ENVERUS",
+        "color": "#FF1744"
+      }
+    ],
+    "enverus_perf": {
+      "upper_perf_ft": 9426,
+      "lower_perf_ft": 14096,
+      "perf_interval_ft": 4670,
+      "formation": "MISSISSIPPIAN",
+      "bh_formation": ""
+    }
   },
   {
-    "name": "Williams Deep #7",
+    "name": "JACKALOPE 0305 1-22-27-34SXH",
     "country": "United States",
-    "region": "North Dakota",
-    "api": "33-105-04444",
-    "lat": 48.3200,
-    "lon": -103.9500,
-    "elevation_ft": 2180,
-    "total_depth_ft": 22000,
-    "producing_depth_ft": 22000,
+    "region": "OK",
+    "basin": "ANADARKO",
+    "county": "GRADY",
+    "api": "35-051-25099-00",
+    "lat": 34.723986,
+    "lon": -97.70989,
+    "bottomhole_lat": 34.69325,
+    "bottomhole_lon": -97.712972,
+    "elevation_ft": null,
+    "total_depth_ft": 25429,
+    "tvd_ft": 13844,
+    "producing_depth_ft": 25378,
+    "operator": "FLYWHEEL ENERGY",
+    "play": "SCOOP|STACK",
+    "trajectory": "HORIZONTAL",
     "layers": [
-      { "id": "w1", "name": "Shallow Zone", "owner": "Whiting Petroleum", "top_ft": 0, "bot_ft": 8400, "color": "#E67E22" },
-      { "id": "w2", "name": "Gap Zone", "owner": "OPEN - No Lessee", "top_ft": 8400, "bot_ft": 11600, "color": "#27AE60" },
-      { "id": "w3", "name": "Lower Basin", "owner": "Enerplus Resources", "top_ft": 11600, "bot_ft": 22000, "color": "#1ABC9C" }
-    ]
+      {
+        "id": "w7l1",
+        "name": "GODDARD",
+        "owner": "FLYWHEEL ENERGY",
+        "top_ft": 13535,
+        "bot_ft": 25429,
+        "color": "#45B7D1"
+      }
+    ],
+    "ownership": [
+      {
+        "id": "w7o1",
+        "name": "NEXUS BSP LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 10600,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o2",
+        "name": "SUNDOWN ENERGY LP",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 4000,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o3",
+        "name": "ENERGY LEASE ACCOUNT LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o4",
+        "name": "M.E. WATKINS",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 3600,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o5",
+        "name": "THE PROSPECTIVE INVESTMENT AND TRADING CO. LTD.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 5000,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o6",
+        "name": "CONTINENTAL RESOURCES INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o7",
+        "name": "CHRISNIK ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o8",
+        "name": "TURNER OIL & GAS PROPERTIES INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o9",
+        "name": "SPRING OPERATING COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 4000,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o10",
+        "name": "BAYS EXPLORATION INC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 100,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w7o11",
+        "name": "CONTINENTAL RESOURCES INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w7o12",
+        "name": "FELIX ENERGY HOLDINGS II LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w7o13",
+        "name": "KEYSTONE ENERGY PARTNERS LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w7o14",
+        "name": "DROVERS TRAIL LAND COMPANY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w7o15",
+        "name": "WARD PETROLEUM CORPORATION",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w7o16",
+        "name": "89 ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w7o17",
+        "name": "SWITCHBACK RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w7o18",
+        "name": "ECHO OPERATING LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w7o19",
+        "name": "UNIT PETROLEUM COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w7o20",
+        "name": "WARWICK - MINERVA LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 25429,
+        "category": "FULL DEPTH (no depth limit)"
+      }
+    ],
+    "leases": [],
+    "perforations": [
+      {
+        "id": "w7p1",
+        "name": "GODDARD",
+        "top_ft": 13877,
+        "bot_ft": 25378,
+        "method": "PERFORATED",
+        "type": "FRACTURED",
+        "date": "",
+        "source": "ENVERUS",
+        "color": "#FF1744"
+      }
+    ],
+    "enverus_perf": {
+      "upper_perf_ft": 13877,
+      "lower_perf_ft": 25378,
+      "perf_interval_ft": 11501,
+      "formation": "GODDARD",
+      "bh_formation": ""
+    }
   },
   {
-    "name": "Loma Campana Vaca Muerta #3",
-    "country": "Argentina",
-    "region": "Neuquén Basin",
-    "api": "AR-NQN-05501",
-    "lat": -38.5800,
-    "lon": -68.7500,
-    "elevation_ft": 1280,
-    "total_depth_ft": 10500,
-    "producing_depth_ft": 10500,
+    "name": "MAXINE 7H-1201X",
+    "country": "United States",
+    "region": "OK",
+    "basin": "ANADARKO",
+    "county": "CANADIAN",
+    "api": "35-017-25998-00",
+    "lat": 35.610445,
+    "lon": -98.104379,
+    "bottomhole_lat": 35.636419,
+    "bottomhole_lon": -98.106393,
+    "elevation_ft": null,
+    "total_depth_ft": 21063,
+    "tvd_ft": 11572,
+    "producing_depth_ft": 21022,
+    "operator": "COTERRA ENERGY",
+    "play": "SCOOP|STACK",
+    "trajectory": "HORIZONTAL",
     "layers": [
-      { "id": "lc1", "name": "Quaternary Cover", "owner": "YPF S.A.", "top_ft": 0, "bot_ft": 2200, "color": "#D35400" },
-      { "id": "lc2", "name": "Neuquén Group", "owner": "OPEN - No Lessee", "top_ft": 2200, "bot_ft": 5600, "color": "#27AE60" },
-      { "id": "lc3", "name": "Vaca Muerta Shale", "owner": "YPF-Chevron JV", "top_ft": 5600, "bot_ft": 10500, "color": "#8E44AD" }
-    ]
+      {
+        "id": "w8l1",
+        "name": "BASE HEEBNER",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 6442,
+        "bot_ft": 6628,
+        "color": "#45B7D1"
+      },
+      {
+        "id": "w8l2",
+        "name": "TONKAWA",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 6628,
+        "bot_ft": 7519,
+        "color": "#27AE60"
+      },
+      {
+        "id": "w8l3",
+        "name": "COTTAGE GROVE",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 7519,
+        "bot_ft": 8345,
+        "color": "#F39C12"
+      },
+      {
+        "id": "w8l4",
+        "name": "CHECKERBOARD",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 8345,
+        "bot_ft": 9056,
+        "color": "#E74C3C"
+      },
+      {
+        "id": "w8l5",
+        "name": "OSWEGO",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 9056,
+        "bot_ft": 9277,
+        "color": "#9B59B6"
+      },
+      {
+        "id": "w8l6",
+        "name": "VERDIGRIS",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 9277,
+        "bot_ft": 9511,
+        "color": "#1ABC9C"
+      },
+      {
+        "id": "w8l7",
+        "name": "PINK LIME",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 9511,
+        "bot_ft": 9670,
+        "color": "#3498DB"
+      },
+      {
+        "id": "w8l8",
+        "name": "INOLA",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 9670,
+        "bot_ft": 9690,
+        "color": "#E67E22"
+      },
+      {
+        "id": "w8l9",
+        "name": "ATOKA",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 9690,
+        "bot_ft": 9774,
+        "color": "#2ECC71"
+      },
+      {
+        "id": "w8l10",
+        "name": "NOVI",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 9774,
+        "bot_ft": 9787,
+        "color": "#F1C40F"
+      },
+      {
+        "id": "w8l11",
+        "name": "MORROW",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 9787,
+        "bot_ft": 11600,
+        "color": "#45B7D1"
+      },
+      {
+        "id": "w8l12",
+        "name": "WOODFORD",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 11600,
+        "bot_ft": 21063,
+        "color": "#27AE60"
+      }
+    ],
+    "ownership": [
+      {
+        "id": "w8o1",
+        "name": "EAGLE ROCK MID-CONTINENT ASSET LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 11675,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w8o2",
+        "name": "JOHN C. OXLEY, L.L.C.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 13185,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w8o3",
+        "name": "ARNOLD OIL PROPERTIS LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 13091,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w8o4",
+        "name": "ARNOLD OIL PROPERTIES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 13,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w8o5",
+        "name": "DOMINION OKLAHOMA TEXAS EXPLORATION AND PRODUCTION, INC.",
+        "grantor": "",
+        "top_ft": 11292,
+        "bot_ft": 21063,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w8o6",
+        "name": "DOMINION OKLAHOMA TEXAS EXPLORATION LIMITED PARTNERSHIP",
+        "grantor": "",
+        "top_ft": 11292,
+        "bot_ft": 21063,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w8o7",
+        "name": "NOWITZKI OIL & GAS LP",
+        "grantor": "",
+        "top_ft": 11320,
+        "bot_ft": 21063,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w8o8",
+        "name": "CITIZEN ENERGY III LLC",
+        "grantor": "",
+        "top_ft": 11344,
+        "bot_ft": 21063,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w8o9",
+        "name": "SILVER OAK NATURAL RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 11344,
+        "bot_ft": 21063,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w8o10",
+        "name": "LADD LLC",
+        "grantor": "",
+        "top_ft": 11960,
+        "bot_ft": 21063,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w8o11",
+        "name": "T.S. DUDLEY LAND COMPANY INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w8o12",
+        "name": "INDIANOLA RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w8o13",
+        "name": "R D WILLIAMS & COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w8o14",
+        "name": "GULFSTAR ROYALTY COMPANY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w8o15",
+        "name": "NATIVE EXPLORATION OPERATING LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w8o16",
+        "name": "GRIFFITH LAND SERVICE INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w8o17",
+        "name": "CENOK ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w8o18",
+        "name": "89 ENERGY LLC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w8o19",
+        "name": "MONTREAL ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w8o20",
+        "name": "RED BLUFF RESOURCES OPERATING LLC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21063,
+        "category": "FULL DEPTH (no depth limit)"
+      }
+    ],
+    "leases": [],
+    "perforations": [
+      {
+        "id": "w8p1",
+        "name": "WOODFORD",
+        "top_ft": 11600,
+        "bot_ft": 21022,
+        "method": "PERFORATED",
+        "type": "FRACTURED",
+        "date": "",
+        "source": "ENVERUS",
+        "color": "#FF1744"
+      }
+    ],
+    "enverus_perf": {
+      "upper_perf_ft": 11600,
+      "lower_perf_ft": 21022,
+      "perf_interval_ft": 9422,
+      "formation": "WOODFORD",
+      "bh_formation": ""
+    }
   },
   {
-    "name": "Bajada del Palo Oeste #4",
-    "country": "Argentina",
-    "region": "Neuquén Basin",
-    "api": "AR-NQN-05502",
-    "lat": -38.7200,
-    "lon": -69.1100,
-    "elevation_ft": 1350,
-    "total_depth_ft": 11200,
-    "producing_depth_ft": 11200,
+    "name": "CAREL 3H-2524X",
+    "country": "United States",
+    "region": "OK",
+    "basin": "ANADARKO",
+    "county": "CANADIAN",
+    "api": "35-017-25631-00",
+    "lat": 35.392449,
+    "lon": -97.997287,
+    "bottomhole_lat": 35.420306,
+    "bottomhole_lon": -97.998202,
+    "elevation_ft": null,
+    "total_depth_ft": 21870,
+    "tvd_ft": 9802,
+    "producing_depth_ft": 21561,
+    "operator": "COTERRA ENERGY",
+    "play": "SCOOP|STACK",
+    "trajectory": "HORIZONTAL",
     "layers": [
-      { "id": "bp1", "name": "Rayoso Formation", "owner": "Vista Energy", "top_ft": 0, "bot_ft": 3100, "color": "#F1C40F" },
-      { "id": "bp2", "name": "Mulichinco Fm", "owner": "Vista Energy", "top_ft": 3100, "bot_ft": 6800, "color": "#E67E22" },
-      { "id": "bp3", "name": "Vaca Muerta Shale", "owner": "Vista Energy", "top_ft": 6800, "bot_ft": 11200, "color": "#2C3E50" }
-    ]
+      {
+        "id": "w9l1",
+        "name": "WOODFORD",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 11538,
+        "bot_ft": 21870,
+        "color": "#45B7D1"
+      }
+    ],
+    "ownership": [
+      {
+        "id": "w9o1",
+        "name": "EAGLE ROCK MID-CONTINENT ASSET LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 11675,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w9o2",
+        "name": "JOHN C. OXLEY, L.L.C.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 13185,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w9o3",
+        "name": "ARNOLD OIL PROPERTIS LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 13091,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w9o4",
+        "name": "ARNOLD OIL PROPERTIES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 13,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w9o5",
+        "name": "DOMINION OKLAHOMA TEXAS EXPLORATION AND PRODUCTION, INC.",
+        "grantor": "",
+        "top_ft": 11292,
+        "bot_ft": 21870,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w9o6",
+        "name": "DOMINION OKLAHOMA TEXAS EXPLORATION LIMITED PARTNERSHIP",
+        "grantor": "",
+        "top_ft": 11292,
+        "bot_ft": 21870,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w9o7",
+        "name": "NOWITZKI OIL & GAS LP",
+        "grantor": "",
+        "top_ft": 11320,
+        "bot_ft": 21870,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w9o8",
+        "name": "CITIZEN ENERGY III LLC",
+        "grantor": "",
+        "top_ft": 11344,
+        "bot_ft": 21870,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w9o9",
+        "name": "SILVER OAK NATURAL RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 11344,
+        "bot_ft": 21870,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w9o10",
+        "name": "LADD LLC",
+        "grantor": "",
+        "top_ft": 11960,
+        "bot_ft": 21870,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w9o11",
+        "name": "T.S. DUDLEY LAND COMPANY INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w9o12",
+        "name": "INDIANOLA RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w9o13",
+        "name": "R D WILLIAMS & COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w9o14",
+        "name": "GULFSTAR ROYALTY COMPANY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w9o15",
+        "name": "NATIVE EXPLORATION OPERATING LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w9o16",
+        "name": "GRIFFITH LAND SERVICE INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w9o17",
+        "name": "CENOK ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w9o18",
+        "name": "89 ENERGY LLC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w9o19",
+        "name": "MONTREAL ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w9o20",
+        "name": "RED BLUFF RESOURCES OPERATING LLC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 21870,
+        "category": "FULL DEPTH (no depth limit)"
+      }
+    ],
+    "leases": [],
+    "perforations": [
+      {
+        "id": "w9p1",
+        "name": "WOODFORD",
+        "top_ft": 11548,
+        "bot_ft": 21561,
+        "method": "PERFORATED",
+        "type": "FRACTURED",
+        "date": "",
+        "source": "ENVERUS",
+        "color": "#FF1744"
+      }
+    ],
+    "enverus_perf": {
+      "upper_perf_ft": 11548,
+      "lower_perf_ft": 21561,
+      "perf_interval_ft": 10013,
+      "formation": "WOODFORD",
+      "bh_formation": ""
+    }
   },
   {
-    "name": "Fortín de Piedra #6",
-    "country": "Argentina",
-    "region": "Neuquén Basin",
-    "api": "AR-NQN-05503",
-    "lat": -38.3400,
-    "lon": -69.4500,
-    "elevation_ft": 1420,
-    "total_depth_ft": 12000,
-    "producing_depth_ft": 12000,
+    "name": "MILLER TRUST 5-32-3XHW",
+    "country": "United States",
+    "region": "OK",
+    "basin": "ANADARKO",
+    "county": "CANADIAN",
+    "api": "35-017-25727-00",
+    "lat": 35.624792,
+    "lon": -98.287906,
+    "bottomhole_lat": 35.652538,
+    "bottomhole_lon": -98.28888,
+    "elevation_ft": null,
+    "total_depth_ft": 23101,
+    "tvd_ft": 13220,
+    "producing_depth_ft": 23101,
+    "operator": "COTERRA ENERGY",
+    "play": "SCOOP|STACK",
+    "trajectory": "HORIZONTAL",
     "layers": [
-      { "id": "fp1", "name": "Surface Sediments", "owner": "OPEN - No Lessee", "top_ft": 0, "bot_ft": 2800, "color": "#27AE60" },
-      { "id": "fp2", "name": "Quintuco Formation", "owner": "Tecpetrol", "top_ft": 2800, "bot_ft": 7400, "color": "#16A085" },
-      { "id": "fp3", "name": "Vaca Muerta Shale", "owner": "Tecpetrol", "top_ft": 7400, "bot_ft": 12000, "color": "#C0392B" }
-    ]
-  },
-  {
-    "name": "El Orejano Tight Gas #8",
-    "country": "Argentina",
-    "region": "Neuquén Basin",
-    "api": "AR-NQN-05504",
-    "lat": -38.9100,
-    "lon": -68.9800,
-    "elevation_ft": 1180,
-    "total_depth_ft": 9800,
-    "producing_depth_ft": 9800,
-    "layers": [
-      { "id": "eo1", "name": "Overburden", "owner": "YPF S.A.", "top_ft": 0, "bot_ft": 2500, "color": "#BDC3C7" },
-      { "id": "eo2", "name": "Lajas Formation", "owner": "YPF-Dow JV", "top_ft": 2500, "bot_ft": 9800, "color": "#2980B9" }
-    ]
-  },
-  {
-    "name": "Çayırdere Shale #1",
-    "country": "Turkey",
-    "region": "Thrace Basin",
-    "api": "TR-THR-10001",
-    "lat": 41.3500,
-    "lon": 27.2200,
-    "elevation_ft": 520,
-    "total_depth_ft": 8500,
-    "producing_depth_ft": 8500,
-    "layers": [
-      { "id": "cy1", "name": "Ergene Formation", "owner": "Turkish Petroleum (TPAO)", "top_ft": 0, "bot_ft": 1800, "color": "#7F8C8D" },
-      { "id": "cy2", "name": "Danişmen Fm", "owner": "OPEN - No Lessee", "top_ft": 1800, "bot_ft": 4200, "color": "#27AE60" },
-      { "id": "cy3", "name": "Mezardere Shale", "owner": "Turkish Petroleum (TPAO)", "top_ft": 4200, "bot_ft": 8500, "color": "#34495E" }
-    ]
-  },
-  {
-    "name": "Diyarbakır Deep #2",
-    "country": "Turkey",
-    "region": "Southeast Anatolia",
-    "api": "TR-DYB-10002",
-    "lat": 37.9100,
-    "lon": 40.2300,
-    "elevation_ft": 2100,
-    "total_depth_ft": 14500,
-    "producing_depth_ft": 14500,
-    "layers": [
-      { "id": "dy1", "name": "Şelmo Formation", "owner": "TPAO", "top_ft": 0, "bot_ft": 3600, "color": "#E74C3C" },
-      { "id": "dy2", "name": "Germav Fm", "owner": "TPAO", "top_ft": 3600, "bot_ft": 8400, "color": "#D35400" },
-      { "id": "dy3", "name": "Mardin Group", "owner": "TPAO-Shell JV", "top_ft": 8400, "bot_ft": 14500, "color": "#8E44AD" }
-    ]
-  },
-  {
-    "name": "Gabar Mountain #4",
-    "country": "Turkey",
-    "region": "Şırnak",
-    "api": "TR-SRN-10003",
-    "lat": 37.4500,
-    "lon": 42.4800,
-    "elevation_ft": 3200,
-    "total_depth_ft": 12800,
-    "producing_depth_ft": 12800,
-    "layers": [
-      { "id": "gb1", "name": "Weathered Zone", "owner": "OPEN - No Lessee", "top_ft": 0, "bot_ft": 1500, "color": "#27AE60" },
-      { "id": "gb2", "name": "Midyat Group", "owner": "TPAO", "top_ft": 1500, "bot_ft": 6200, "color": "#F39C12" },
-      { "id": "gb3", "name": "Mardin Limestone", "owner": "TPAO", "top_ft": 6200, "bot_ft": 12800, "color": "#16A085" }
-    ]
-  },
-  {
-    "name": "Sakarya Gas Offshore #9",
-    "country": "Turkey",
-    "region": "Black Sea",
-    "api": "TR-BLK-10004",
-    "lat": 42.1200,
-    "lon": 35.6500,
-    "elevation_ft": -7200,
-    "total_depth_ft": 17500,
-    "producing_depth_ft": 17500,
-    "layers": [
-      { "id": "sk1", "name": "Seafloor Sediments", "owner": "TPAO", "top_ft": 0, "bot_ft": 3400, "color": "#3498DB" },
-      { "id": "sk2", "name": "Akçakoca Fm", "owner": "OPEN - No Lessee", "top_ft": 3400, "bot_ft": 9800, "color": "#27AE60" },
-      { "id": "sk3", "name": "Sakarya Reservoir", "owner": "TPAO", "top_ft": 9800, "bot_ft": 17500, "color": "#1ABC9C" }
-    ]
+      {
+        "id": "w10l1",
+        "name": "TONKAWA",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 7710,
+        "bot_ft": 8172,
+        "color": "#45B7D1"
+      },
+      {
+        "id": "w10l2",
+        "name": "COTTAGE GROVE",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 8172,
+        "bot_ft": 8540,
+        "color": "#27AE60"
+      },
+      {
+        "id": "w10l3",
+        "name": "HOGSHOOTER",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 8540,
+        "bot_ft": 8866,
+        "color": "#F39C12"
+      },
+      {
+        "id": "w10l4",
+        "name": "CHECKERBOARD",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 8866,
+        "bot_ft": 9750,
+        "color": "#E74C3C"
+      },
+      {
+        "id": "w10l5",
+        "name": "OSWEGO",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 9750,
+        "bot_ft": 9925,
+        "color": "#9B59B6"
+      },
+      {
+        "id": "w10l6",
+        "name": "VERDIGRIS",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 9925,
+        "bot_ft": 10193,
+        "color": "#1ABC9C"
+      },
+      {
+        "id": "w10l7",
+        "name": "RED FORK",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 10193,
+        "bot_ft": 10470,
+        "color": "#3498DB"
+      },
+      {
+        "id": "w10l8",
+        "name": "INOLA",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 10470,
+        "bot_ft": 10494,
+        "color": "#E67E22"
+      },
+      {
+        "id": "w10l9",
+        "name": "ATOKA",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 10494,
+        "bot_ft": 10532,
+        "color": "#2ECC71"
+      },
+      {
+        "id": "w10l10",
+        "name": "NOVI",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 10532,
+        "bot_ft": 10555,
+        "color": "#F1C40F"
+      },
+      {
+        "id": "w10l11",
+        "name": "MORROW SHALE",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 10555,
+        "bot_ft": 13099,
+        "color": "#45B7D1"
+      },
+      {
+        "id": "w10l12",
+        "name": "WOODFORD",
+        "owner": "COTERRA ENERGY",
+        "top_ft": 13099,
+        "bot_ft": 23101,
+        "color": "#27AE60"
+      }
+    ],
+    "ownership": [
+      {
+        "id": "w10o1",
+        "name": "EAGLE ROCK MID-CONTINENT ASSET LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 11675,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w10o2",
+        "name": "JOHN C. OXLEY, L.L.C.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 13185,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w10o3",
+        "name": "ARNOLD OIL PROPERTIS LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 13091,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w10o4",
+        "name": "ARNOLD OIL PROPERTIES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 13,
+        "category": "VARIABLE DEPTH RIGHTS"
+      },
+      {
+        "id": "w10o5",
+        "name": "DOMINION OKLAHOMA TEXAS EXPLORATION AND PRODUCTION, INC.",
+        "grantor": "",
+        "top_ft": 11292,
+        "bot_ft": 23101,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w10o6",
+        "name": "DOMINION OKLAHOMA TEXAS EXPLORATION LIMITED PARTNERSHIP",
+        "grantor": "",
+        "top_ft": 11292,
+        "bot_ft": 23101,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w10o7",
+        "name": "NOWITZKI OIL & GAS LP",
+        "grantor": "",
+        "top_ft": 11320,
+        "bot_ft": 23101,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w10o8",
+        "name": "CITIZEN ENERGY III LLC",
+        "grantor": "",
+        "top_ft": 11344,
+        "bot_ft": 23101,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w10o9",
+        "name": "SILVER OAK NATURAL RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 11344,
+        "bot_ft": 23101,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w10o10",
+        "name": "LADD LLC",
+        "grantor": "",
+        "top_ft": 11960,
+        "bot_ft": 23101,
+        "category": "DEEP RIGHTS (>10000 ft)"
+      },
+      {
+        "id": "w10o11",
+        "name": "T.S. DUDLEY LAND COMPANY INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w10o12",
+        "name": "INDIANOLA RESOURCES LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w10o13",
+        "name": "R D WILLIAMS & COMPANY",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w10o14",
+        "name": "GULFSTAR ROYALTY COMPANY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w10o15",
+        "name": "NATIVE EXPLORATION OPERATING LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w10o16",
+        "name": "GRIFFITH LAND SERVICE INC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w10o17",
+        "name": "CENOK ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w10o18",
+        "name": "89 ENERGY LLC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w10o19",
+        "name": "MONTREAL ENERGY LLC",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      },
+      {
+        "id": "w10o20",
+        "name": "RED BLUFF RESOURCES OPERATING LLC.",
+        "grantor": "",
+        "top_ft": 0,
+        "bot_ft": 23101,
+        "category": "FULL DEPTH (no depth limit)"
+      }
+    ],
+    "leases": [],
+    "perforations": [
+      {
+        "id": "w10p1",
+        "name": "WOODFORD",
+        "top_ft": 13109,
+        "bot_ft": 23101,
+        "method": "PERFORATED",
+        "type": "FRACTURED",
+        "date": "",
+        "source": "ENVERUS",
+        "color": "#FF1744"
+      }
+    ],
+    "enverus_perf": {
+      "upper_perf_ft": 13109,
+      "lower_perf_ft": 23101,
+      "perf_interval_ft": 9992,
+      "formation": "WOODFORD",
+      "bh_formation": ""
+    }
   }
 ]
